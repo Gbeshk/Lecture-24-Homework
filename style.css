@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Big+Shoulders+Display:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(
+    180deg,
+    #1d1e28 0.12%,
+    #261c2d 94.84%,
+    #261a2d 100%
+  );
+  position: relative;
+}
+.foni {
+  max-width: 1440px;
+  width: 100%;
+  height: 569px;
+  top: 3px;
+  gap: 0px;
+  opacity: 0px;
+}
+.foni {
+  height: 100vh;
+}
+.qvedafoni {
+  position: absolute;
+  bottom: 0px;
+}
+.container {
+  max-width: 688px;
+  width: 100%;
+  height: 184px;
+  display: flex;
+  justify-content: space-between;
+  top: 268px;
+  position: absolute;
+}
+.promptdiv {
+  background-color: hsla(236, 21%, 26%, 1);
+  width: 148px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+  color: hsla(345, 95%, 68%, 1);
+  border-radius: 8px;
+}
+.heading {
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 29.11px;
+  letter-spacing: 7.5px;
+  text-align: center;
+  text-underline-position: from-font;
+  color: white;
+  top: 135px;
+  text-decoration-skip-ink: none;
+  position: absolute;
+}
+.box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.spani {
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18.52px;
+  letter-spacing: 5.918749809265137px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: hsla(236, 18%, 59%, 1);
+  margin-top: 20px;
+}
+.icondiv {
+  position: absolute;
+  top: 704px;
+  display: flex;
+  gap: 32px;
+}
+.qvedafoni {
+  width: 100%;
+}
+.foni {
+  width: 100%;
+}
+.icon1:hover {
+  background:  hsla(345, 95%, 68%, 1);
+  transition: 2s;
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: 327px;
+    height: 92px;
+  }
+  .qvedafoni {
+    height: 168px;
+  }
+  .box {
+    width: 70px;
+    height: 92px;
+  }
+  .promptdiv {
+    width: 70px;
+    height: 66.27px;
+    border-radius: 4px;
+    font-family: Red Hat Text;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: -1.0800000429153442px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .heading {
+    font-size: 18px;
+    line-height: 23.81px;
+    letter-spacing: 6.136363506317139px;
+    width: 327px;
+  }
+  .spani {
+    font-size: 7px;
+    font-weight: 700;
+    line-height: 9.26px;
+    letter-spacing: 2.9593749046325684px;
+  }
+}
